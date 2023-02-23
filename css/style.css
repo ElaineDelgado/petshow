@@ -193,6 +193,89 @@ main {
   display: flex;
   flex-direction: column;
 }
+/* Slide  */
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #fcfcfc80;
+}
+.swiper-pagination-bullet {
+  opacity: .5 !important;
+  padding: 5px;
+  border: 2px solid #5900b3;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background-color: #e5eaff;
+  opacity: 1 !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #5900b3;
+}
+.swiper {
+  width: 90%;
+  height: 200px;
+  margin-top: 25px;
+}
+.swiper-slide {
+  background-color: #d8d8d8;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+p.text-cto {
+  opacity: 0;
+  padding: 7px 10px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #5900b3;
+}
+.swiper-slide:hover  p.text-cto {
+  opacity: 1;
+  background-color: #ccc;
+  margin-bottom: 25px;
+  transition: all .4s;
+}
+.swiper-slide.slide01 {
+  background-image: url("../img/produtos/image01.png");
+}
+.swiper-slide.slide02 {
+  background-image: url("../img/produtos/image02.png");
+}
+.swiper-slide.slide03 {
+  background-image: url("../img/produtos/image03.png");
+}
+.swiper-slide.slide04 {
+  background-image: url("../img/produtos/image04.png");
+}
+.swiper-slide.slide05 {
+  background-image: url("../img/produtos/image05.png");
+}
+.swiper-slide.slide06 {
+  background-image: url("../img/produtos/image06.png");
+}
+.swiper-slide.slide07 {
+  background-image: url("../img/produtos/image07.png");
+}
+.swiper-slide.slide08 {
+  background-image: url("../img/produtos/image08.png");
+}
+.swiper-slide.slide08 {
+  background-image: url("../img/produtos/image08.png");
+}
+.swiper-slide.slide09 {
+  background-image: url("../img/produtos/image09.png");
+}
+.swiper-slide.slide10 {
+  background-image: url("../img/produtos/image10.png");
+}
+.swiper-slide.slide11 {
+  background-image: url("../img/produtos/image11.png");
+}
+.swiper-slide.slide12 {
+  background-image: url("../img/produtos/image12.png");
+}
 .testemonies-container {
   text-align: center;
   padding: 2rem;
@@ -222,28 +305,33 @@ main {
     margin-bottom: 2rem;
   }
 }
-.testemonies-container .testemonies-card-container .testemonies-card i {
-  color: #5900b3;
-  font-size: 4rem;
-  line-height: 1.4;
-  display: block;
-  margin-top: 1rem;
+.testemonies-container .testemonies-card-container .testemonies-card img {  
+  margin-top: .5rem;
   margin-bottom: 1.5rem;
+  max-width: 120px;  
+  border-radius: 50%;
 }
 .testemonies-container .testemonies-card-container .testemonies-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   line-height: 1.4;
+  color: #5900b3;
 }
 .testemonies-container .testemonies-card-container .testemonies-card p {
-  color: #8b8e94;
+  color: #808183;
   font-size: 1rem;
   line-height: 1.4;
+}
+.testemonies-container .testemonies-card-container .testemonies-card p.user-testemonial {
+  color: #5900b3;
+  font-size: .9rem;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-top: 10px;
 }
 .testemonies-container .testemonies-card-container .testemonies-card:hover {
   border: transparent;
   box-shadow: 0 1px 10px #ccc;
 }
-
 .services-container {
   background-color: #e5eaff;
   padding: 3rem;
@@ -275,7 +363,7 @@ main {
   background-image: url("../img/service1.jpg");
 }
 .services-container .services-list .main-second-service {  
-  background-image: url("../img/service9.jpg");  
+  background-image: url("../img/service6.jpg");  
 }
 @media (max-width: 720px) {
   .services-container .services-list .main-first-service,
@@ -326,16 +414,16 @@ main {
   background-image: url("../img/service5.png");
 }
 .services-container .services-list .other-services-container #service7 {
-  background-image: url("../img/service2.png");
+  background-image: url("../img/service7.png");
 }
 .services-container .services-list .other-services-container #service8 {
-  background-image: url("../img/service3.webp");
+  background-image: url("../img/service8.jpg");
 }
 .services-container .services-list .other-services-container #service9 {
   background-image: url("../img/service9.jpg");
 }
 .services-container .services-list .other-services-container #service10 {
-  background-image: url("../img/service5.png");
+  background-image: url("../img/service10.png");
 }
 .services-container .services-list .service-card-cover {
   position: absolute;
@@ -460,86 +548,4 @@ footer .footer-copy-container {
 footer .footer-copy-container p {
   font-size: 1rem;
   line-height: 1.4;
-}
-/* Slide  */
-.swiper-button-prev,
-.swiper-button-next {
-  background-color: #fcfcfc80;
-}
-.swiper-pagination-bullet {
-  opacity: .5 !important;
-  padding: 5px;
-  border: 2px solid #5900b3;
-}
-.swiper-pagination-bullet.swiper-pagination-bullet-active{
-  background-color: #e5eaff;
-  opacity: 1 !important;
-}
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  color: #5900b3;
-}
-.swiper {
-  width: 90%;
-  height: 200px;
-  margin-top: 25px;
-}
-.swiper-slide {
-  background-color: #d8d8d8;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-p.text-cto {
-  opacity: 0;
-  padding: 7px 10px;
-  border-radius: 50px;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-.swiper-slide:hover  p.text-cto {
-  opacity: 1;
-  background-color: #ccc;
-  margin-bottom: 25px;
-  transition: all .4s;
-}
-.swiper-slide.slide01 {
-  background-image: url("../img/produtos/image01.png");
-}
-.swiper-slide.slide02 {
-  background-image: url("../img/produtos/image02.png");
-}
-.swiper-slide.slide03 {
-  background-image: url("../img/produtos/image03.png");
-}
-.swiper-slide.slide04 {
-  background-image: url("../img/produtos/image04.png");
-}
-.swiper-slide.slide05 {
-  background-image: url("../img/produtos/image05.png");
-}
-.swiper-slide.slide06 {
-  background-image: url("../img/produtos/image06.png");
-}
-.swiper-slide.slide07 {
-  background-image: url("../img/produtos/image07.png");
-}
-.swiper-slide.slide08 {
-  background-image: url("../img/produtos/image08.png");
-}
-.swiper-slide.slide08 {
-  background-image: url("../img/produtos/image08.png");
-}
-.swiper-slide.slide09 {
-  background-image: url("../img/produtos/image09.png");
-}
-.swiper-slide.slide10 {
-  background-image: url("../img/produtos/image10.png");
-}
-.swiper-slide.slide11 {
-  background-image: url("../img/produtos/image11.png");
-}
-.swiper-slide.slide12 {
-  background-image: url("../img/produtos/image12.png");
 }
