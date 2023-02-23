@@ -194,6 +194,9 @@ main {
   flex-direction: column;
 }
 /* Slide  */
+.sr-only {
+  margin-top: -200px
+}
 .swiper-button-prev,
 .swiper-button-next {
   background-color: #fcfcfc80;
