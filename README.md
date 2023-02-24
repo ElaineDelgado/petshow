@@ -1,12 +1,12 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Petshop" />
+  <img src="./.github/app.gif" alt="Petshow" />
 
   &#xa0;
 
 </div>
 
-<h1 align="center">Petshowshop</h1>
-<a href="https://petshowshop.netlify.app">Demo do Petshowshop aqui!!!</a>
+<h1 align="center">Petshow</h1>
+<a href="https://petshowshop.netlify.app">Demo do Petshow aqui!!!</a>
 
 <hr> 
 
