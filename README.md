@@ -14,7 +14,7 @@
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
   <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-inicializando">Inicializando</a> &#xa0; | &#xa0;
-  <a href="#sparkles-autora" target="_blank">Author</a>
+  <a href="#sparkles-autora" target="_blank">Autora</a>
 </p>
 
 <br>
@@ -26,7 +26,7 @@ Site da Petshow, que é uma loja de artigos para Pets e clínica veterinária.
 
 ## :white_check_mark: Requerimentos ##
 
-Antes de começar :checkered_flag:, você precisa ter [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) instalado para clonar o projeto.
+Antes de começar :checkered_flag:, você precisa ter [Git](https://git-scm.com) e [Node](https://nodejs.org/en/) instalados para clonar o projeto.
 
 Ou pode entrar em meu perfil no Github e fazer o download do projeto:
 <a href="https://github.com/ElaineDelgado/petshow" target="_blank">Petshow Github</a>
