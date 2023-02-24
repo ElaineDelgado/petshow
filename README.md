@@ -11,10 +11,10 @@
 <hr> 
 
 <p align="center">
-  <a href="#dart-about">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#white_check_mark-requirements">Requerimentos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Inicializando</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-inicializando">Inicializando</a> &#xa0; | &#xa0;
+  <a href="#sparkles-autora" target="_blank">Author</a>
 </p>
 
 <br>
@@ -26,7 +26,11 @@ Site da Petshow, que é uma loja de artigos para Pets e clínica veterinária.
 
 ## :white_check_mark: Requerimentos ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Antes de começar :checkered_flag:, você precisa ter [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) instalado para clonar o projeto.
+
+Ou pode entrar em meu perfil no Github e fazer o download do projeto:
+<a href="https://github.com/ElaineDelgado/petshow" target="_blank">Petshow Github</a>
+
 
 ## :checkered_flag: Inicializando ##
 
