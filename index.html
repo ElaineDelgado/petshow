@@ -25,6 +25,11 @@
         ></script>
 
         <!-- CSS-->
+        <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"         
+        crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css" />
 
 
@@ -51,129 +56,159 @@
                 </nav>
                 <a class="btn-mobile" href=""><i class="fas fa-bars"></i></a>
             </div>
-            <div class="title-container">
-                <h2>Nós proporcionamos</h2>
-                <h1>O melhor para seu pet</h1>
-                <a href="#" class="btn btn-primary btn-rounded"
-                    >Ver Serviços</a
-                >
-            </div>
         </header>
+
+        <!-- Banner Início -->
+        <div id="carouselHome" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-item-01 ">
+                    <div class="carousel-bg">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Seu pet feliz</h5>
+                            <p>Aqui seu amiguinho recebe tratamento VIP, sempre!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active carousel-item-02">
+                    <div class="carousel-bg">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Encontre tudo aqui  </h5>
+                            <p>Tudo para todas todas a espécies de pet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-03">
+                    <div class="carousel-bg">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Seja nosso franqueado</h5>
+                            <p>Seu petshop pode ser 5 estrelas!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHome" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <!-- Serviços-->
         <main id="services" class="services-container">        
             <h2>Nossos serviços</h2>
             <div class="services-list">
-                <div class="main-first-service" id="service1">
-                    <div class="service-card-cover">
-                        <p class="service-card-title">Alimentação</p>
-                        <p class="service-card-description">
+                <div id="service1" class="card main-first-service">
+                    <div class="card-body service-card-cover">
+                        <h5 class="card-title service-card-title">Alimentação</h5>
+                        <p class="card-text service-card-description">
                             Lorem ipsum dolor sit amet consectetur quaerat
-                            molestiae, et illum. Consequuntur quibusdam
-                            consequatur neque exercitationem corrupti
-                            adipisicing elit.
+                            molestiae,consequatur neque exercitationem corrupti
+                            adipisicing elit et illum. Consequuntur quibusdam
+                            consequatur neque exercitationem.
                         </p>
                     </div>
                 </div>
                 <div class="other-services-container">
-                    <div class="service-card" id="service2">
-                        <div class="service-card-cover">
-                            <p class="service-card-title">Brinquedos</p>
-                            <p class="service-card-description">
-                                Quaerat molestiae, et illum. Consequuntur
-                                quibusdam consequatur neque exercitationem
-                                corruptiVel architecto harum hic exercitationem
-                                molestiae consequatur.
+                    <div  id="service2" class="service-card card">
+                        <div class="card-body service-card-cover">
+                            <h5 class="card-title service-card-title">Brinquedos</h5>
+                            <p class="card-text service-card-description">
+                                Lorem ipsum dolor sit amet consectetur quaerat
+                                molestiae,consequatur neque exercitationem corrupti
+                                adipisicing elit et illum.
                             </p>
                         </div>
                     </div>
-                    <div class="service-card" id="service3">
-                        <div class="service-card-cover">
-                            <p class="service-card-title">Guias e roupas</p>
-                            <p class="service-card-description">
-                                Quaerat molestiae, et illum. Consequuntur
-                                quibusdam consequatur neque exercitationem
-                                corruptiVel architecto harum hic exercitationem
-                                molestiae consequatur.
+                    <div  id="service3" class="service-card card">
+                        <div class="card-body service-card-cover">
+                            <h5 class="card-title service-card-title">Guias e roupas</h5>
+                            <p class="card-text service-card-description">
+                                Lorem ipsum dolor sit amet consectetur quaerat
+                                molestiae,consequatur neque exercitationem corrupti
+                                adipisicing elit et illum.
                             </p>
                         </div>
                     </div>
-                    <div class="service-card" id="service4">
-                        <div class="service-card-cover">
-                            <p class="service-card-title">Camas e acessórios</p>
-                            <p class="service-card-description">
-                                Quaerat molestiae, et illum. Consequuntur
-                                quibusdam consequatur neque exercitationem
-                                corruptiVel architecto harum hic exercitationem
-                                molestiae consequatur.
+                    <div  id="service4" class="service-card card">
+                        <div class="card-body service-card-cover">
+                            <h5 class="card-title service-card-title">Camas e acessórios</h5>
+                            <p class="card-text service-card-description">
+                                Lorem ipsum dolor sit amet consectetur quaerat
+                                molestiae,consequatur neque exercitationem corrupti
+                                adipisicing elit et illum.
                             </p>
                         </div>
                     </div>
-                    <div class="service-card" id="service5">
-                        <div class="service-card-cover">
-                            <p class="service-card-title">Medicamentos</p>
-                            <p class="service-card-description">
-                                Quaerat molestiae, et illum. Consequuntur
-                                quibusdam consequatur neque exercitationem
-                                corruptiVel architecto.
+                    <div  id="service5" class="service-card card">
+                        <div class="card-body service-card-cover">
+                            <h5 class="card-title service-card-title">Medicamentos</h5>
+                            <p class="card-text service-card-description">
+                                Lorem ipsum dolor sit amet consectetur quaerat
+                                molestiae,consequatur neque exercitationem corrupti
+                                adipisicing elit et illum.
                             </p>
                         </div>
                     </div>
+                    
                 </div>
             </div>
             <div class="services-list">
-                <div class="main-second-service" id="service6">
-                    <div class="service-card-cover">
-                        <p class="service-card-title">Clínica e laboratório</p>
-                        <p class="service-card-description">
+                <div id="service1" class="card main-second-service">
+                    <div class="card-body service-card-cover">
+                        <h5 class="card-title service-card-title">Clínica e laboratório</h5>
+                        <p class="card-text service-card-description">
                             Lorem ipsum dolor sit amet consectetur quaerat
-                            molestiae, et illum. Consequuntur quibusdam
-                            consequatur neque exercitationem corrupti
-                            adipisicing elit.
+                            molestiae,consequatur neque exercitationem corrupti
+                            adipisicing elit et illum. Consequuntur quibusdam
+                            consequatur neque exercitationem.
                         </p>
                     </div>
                 </div>
                 <div class="other-services-container">
-                    <div class="service-card" id="service7">
-                        <div class="service-card-cover">
-                            <p class="service-card-title">Banho e tosa</p>
-                            <p class="service-card-description">
-                                Quaerat molestiae, et illum. Consequuntur
-                                quibusdam consequatur neque exercitationem
-                                corruptiVel architecto harum hic exercitationem
-                                molestiae consequatur.
+                    <div  id="service7" class="service-card card">
+                        <div class="card-body service-card-cover">
+                            <h5 class="card-title service-card-title">Banho e tosa</h5>
+                            <p class="card-text service-card-description">
+                                Lorem ipsum dolor sit amet consectetur quaerat
+                                molestiae,consequatur neque exercitationem corrupti
+                                adipisicing elit et illum.
                             </p>
                         </div>
                     </div>
-                    <div class="service-card" id="service8">
-                        <div class="service-card-cover">
-                            <p class="service-card-title">Adestramento</p>
-                            <p class="service-card-description">
-                                Quaerat molestiae, et illum. Consequuntur
-                                quibusdam consequatur neque exercitationem
-                                corruptiVel architecto harum hic exercitationem
-                                molestiae consequatur.
+                    <div  id="service8" class="service-card card">
+                        <div class="card-body service-card-cover">
+                            <h5 class="card-title service-card-title">Adestramento</h5>
+                            <p class="card-text service-card-description">
+                                Lorem ipsum dolor sit amet consectetur quaerat
+                                molestiae,consequatur neque exercitationem corrupti
+                                adipisicing elit et illum.
                             </p>
                         </div>
                     </div>
-                    <div class="service-card" id="service9">
-                        <div class="service-card-cover">
-                            <p class="service-card-title">Hospedagem</p>
-                            <p class="service-card-description">
-                                Quaerat molestiae, et illum. Consequuntur
-                                quibusdam consequatur neque exercitationem
-                                corruptiVel architecto harum hic exercitationem
-                                molestiae consequatur.
+                    <div  id="service9" class="service-card card">
+                        <div class="card-body service-card-cover">
+                            <h5 class="card-title service-card-title">Hospedagem</h5>
+                            <p class="card-text service-card-description">
+                                Lorem ipsum dolor sit amet consectetur quaerat
+                                molestiae,consequatur neque exercitationem corrupti
+                                adipisicing elit et illum.
                             </p>
                         </div>
                     </div>
-                    <div class="service-card" id="service10">
-                        <div class="service-card-cover">
-                            <p class="service-card-title">Adoção</p>
-                            <p class="service-card-description">
-                                Quaerat molestiae, et illum. Consequuntur
-                                quibusdam consequatur neque exercitationem
-                                corruptiVel architecto harum hic exercitationem
-                                molestiae consequatur.
+                    <div  id="service10" class="service-card card">
+                        <div class="card-body service-card-cover">
+                            <h5 class="card-title service-card-title">Adoção</h5>
+                            <p class="card-text service-card-description">
+                                Lorem ipsum dolor sit amet consectetur quaerat
+                                molestiae,consequatur neque exercitationem corrupti
+                                adipisicing elit et illum.
                             </p>
                         </div>
                     </div>
@@ -233,85 +268,58 @@
         </main>  
 
         <!-- Depoimentos -->
-        <section id="testemony" class="testemonies-container">
-            <h2>Depoimentos</h2>
-            <div class="testemonies-card-container">
-                <div class="testemonies-card">
-                    <img src="../img/users/user1.png" mg>
-                    <h3>Meu pet é sempre bem recebido!</h3>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Cupiditate eius ea eligendi placeat rerum
-                        reiciendis esse totam quaerat molestiae, et illum.                        
-                    </p>
-                    <p class="user-testemonial">
-                        Bianca Souza 
-                    </p>
+        <section id="testemony" class="testemonies-container container">
+            <div class="row card-group testemonies-card-container d-flex">
+                <div class="card testemonies-card p-5 d-flex flex-column align-items-center">
+                    <img src="../img/users/user1.png" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Meu pet é sempre bem recebido!</h3>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
-                <div class="testemonies-card">
-                    <img src="../img/users/user2.png" >
-                    <h3>Òtimos profissionais</h3>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Cupiditate eius ea eligendi placeat rerum
-                        reiciendis esse totam quaerat molestiae, et illum.
-                    </p>
-                    <p class="user-testemonial">
-                        Rebeca Delgado
-                    </p>
+                <div class="card testemonies-card p-5 d-flex flex-column align-items-center">
+                    <img src="../img/users/user2.png" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Ótimos profissionais</h3>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
-                <div class="testemonies-card">
-                    <img src="../img/users/user3.png" />
-                    <h3>Meu Jojô é muito bem atendido</h3>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Cupiditate eius ea eligendi placeat rerum
-                        reiciendis esse totam quaerat molestiae, et illum.
-                    </p>
-                    <p class="user-testemonial">
-                        Kaori Yamameshi
-                    </p>
+                <div class="card testemonies-card p-5 d-flex flex-column align-items-center">
+                    <img src="../img/users/user3.png" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Meu Jojô é muito bem atendido</h3>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
-                <div class="testemonies-card">
-                    <img src="../img/users/user4.png" />
-                    <h3>Os melhores petiscos!</h3>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Cupiditate eius ea eligendi placeat rerum
-                        reiciendis esse totam quaerat molestiae, et illum.
-                    </p>
-                    <p class="user-testemonial">
-                        Roger Mello
-                    </p>
+                <div class="card testemonies-card p-5 d-flex flex-column align-items-center">
+                    <img src="../img/users/user4.png" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Os melhores petiscos!</h3>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
-                <div class="testemonies-card">
-                    <img src="../img/users/user5.png" />
-                    <h3>Adoro a variedade da loja!</h3>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Cupiditate eius ea eligendi placeat rerum
-                        reiciendis esse totam quaerat molestiae, et illum.
-                    </p>
-                    <p class="user-testemonial">
-                        Charles
-                    </p>
+                <div class="card testemonies-card  p-5 d-flex flex-column align-items-center">
+                    <img src="../img/users/user5.png" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Adoro a variedade da loja!</h3>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
-                <div class="testemonies-card">
-                    <img src="../img/users/user6.png" />
-                    <h3>Petshow é sensacional!!</h3>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Cupiditate eius ea eligendi placeat rerum
-                        reiciendis esse totam quaerat molestiae, et illum.
-                    </p>
-                    <p class="user-testemonial">
-                        Larissa Janelli
-                    </p>
+                <div class="card testemonies-card p-5 d-flex flex-column align-items-center">
+                    <img src="../img/users/user6.png" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Petshow é sensacional!!</h3>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
-            </div>           
+            </div>
         </section>
-
-        
         <!-- Footer -->
         <footer>
             <div class="footer-container">
@@ -356,11 +364,10 @@
             </div>
         </footer>
         <script src="js/script.js"></script>
+        <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+            crossorigin="anonymous">
+    </script>
     </body>
 </html>
-<!-- 
-a) publicação dos produtos e serviços comercializados. Selecione pelo menos 10 produtos e 3 serviços disponíveis no seu PetShop;
-
-
-d) uma seção de depoimento de clientes;  
--->

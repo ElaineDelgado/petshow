@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 .services-container h2, .testemonies-container h2 {
@@ -60,17 +60,6 @@ a {
 
 li {
   list-style: none;
-}
-.main-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-01.jpg");
-  height: 85vh;
-  background-size: cover;
-  background-position: center;
-}
-@media (max-width: 720px) {
-  .main-banner {
-    height: 100vh;
-  }
 }
 .nav-container {
   display: flex;
@@ -152,46 +141,174 @@ i.fas.fa-paw {
   border: none;
   text-transform: capitalize;
 }
-.title-container {
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  margin-top: 4rem;
-}
-@media (max-width: 720px) {
-  .title-container {
-    text-align: center;
-    padding: 2rem;
-  }
-}
-.title-container h2 {
-  font-size: 3rem;
-  line-height: 1.4;
-}
-@media (max-width: 720px) {
-  .title-container h2 {
-    font-size: 2.25rem;
-    line-height: 1.4;
-    margin-top: 4rem;
-  }
-}
-.title-container h1 {
-  font-size: 4rem;
-  line-height: 1.4;
-}
-@media (max-width: 720px) {
-  .title-container h1 {
-    font-size: 3rem;
-    line-height: 1.4;
-    margin-top: 1rem;
-  }
+.main-banner {
+  height: 13vh;
+  background-color: #ccc;
 }
 main {
   display: flex;
   flex-direction: column;
+}
+.carousel-item {
+  width: 100%;
+  height: 556px;
+  position: relative;
+}
+.carousel-item.carousel-item-01  {
+  background-image: url("../img/bg-01.jpg");
+ /* <img src="img/bg-02.jpg" class="d-block w-100" alt="..."> */
+}
+.carousel-item.carousel-item-02  {
+  background-image: url("../img/bg-02.jpg");
+ /* <img src="img/bg-02.jpg" class="d-block w-100" alt="..."> */
+}
+.carousel-item.carousel-item-03  {
+  background-image: url("../img/bg-03.jpg");
+}
+.carousel-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.363);
+}
+.carousel-caption h5 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.services-container {
+  background-color: #e5eaff;
+  padding: 3rem;
+}
+@media (max-width: 720px) {
+  .services-container {
+    padding: 2rem;
+  }
+}
+.services-container .services-list {
+  display: flex;
+  padding: 2rem 0;
+}
+@media (max-width: 720px) {
+  .services-container .services-list {
+    flex-direction: column;
+  }
+}
+.services-container .services-list .main-first-service,
+.services-container .services-list .main-second-service  {
+  width: 30%;
+  height: 415px;
+  margin: 0 1%;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.services-container .services-list .main-first-service{
+  background-image: url("../img/service1.jpg");
+}
+.services-container .services-list .main-second-service {  
+  background-image: url("../img/service6.jpg");  
+}
+@media (max-width: 720px) {
+  .services-container .services-list .main-first-service,
+.services-container .services-list .main-second-service {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+}
+.services-container .services-list .other-services-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 68%;
+}
+@media (max-width: 720px) {
+  .services-container .services-list .other-services-container {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.services-container .services-list .other-services-container .service-card {
+  width: 46%;
+  height: 200px;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  
+}
+@media (max-width: 720px) {
+  .services-container .services-list .other-services-container .service-card {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+}
+.services-container .services-list .other-services-container #service2 {
+  background-image: url("../img/service2.png");
+}
+.services-container .services-list .other-services-container #service3 {
+  background-image: url("../img/service3.webp");
+}
+.services-container .services-list .other-services-container #service4 {
+  background-image: url("../img/service4.jpg");
+}
+.services-container .services-list .other-services-container #service5 {
+  background-image: url("../img/service5.png");
+}
+.services-container .services-list .other-services-container #service7 {
+  background-image: url("../img/service7.png");
+}
+.services-container .services-list .other-services-container #service8 {
+  background-image: url("../img/service8.jpg");
+}
+.services-container .services-list .other-services-container #service9 {
+  background-image: url("../img/service9.jpg");
+}
+.services-container .services-list .other-services-container #service10 {
+  background-image: url("../img/service10.png");
+}
+.services-container .services-list .service-card-cover {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);  
+  transition: all 0.3s ease-in-out;  
+}
+:is(.main-first-service .service-card-cover, 
+  .main-second-service .service-card-cover, 
+  .service-card .service-card-cover):hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.services-container .services-list .service-card-title {
+  text-align: center;
+  color: #fcfcfc;
+  font-size: 2.25rem;
+  line-height: 1.4;
+  font-weight: bold;
+  margin-top: 15px;
+}
+@media (max-width: 970px) {
+  .services-container .services-list .service-card-title {
+    font-size: 1.2rem;
+  }
+}
+.services-container .services-list .service-card-description {
+  text-align: center;
+  color: #fcfcfc;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.4;
 }
 /* Slide  */
 .sr-only {
@@ -216,8 +333,8 @@ main {
 }
 .swiper {
   width: 90%;
-  height: 200px;
   margin-top: 25px;
+  height: 200px;
 }
 .swiper-slide {
   background-color: #d8d8d8;
@@ -297,6 +414,7 @@ p.text-cto {
 }
 .testemonies-container .testemonies-card-container .testemonies-card {
   width: 30%;
+  min-width: 250px;
   margin: 1%;
   padding: 2rem;
   border: 1px solid #ccc;
@@ -308,14 +426,24 @@ p.text-cto {
     margin-bottom: 2rem;
   }
 }
-.testemonies-container .testemonies-card-container .testemonies-card img {  
+.testemonies-card img {  
   margin-top: .5rem;
   margin-bottom: 1.5rem;
   max-width: 120px;  
   border-radius: 50%;
 }
+.testemonies-card img {  
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+  max-width: 120px;  
+  border-radius: 50%;
+}
+img.border-top-left-radius {
+  border-top-left-radius: 50% !important;
+}
 .testemonies-container .testemonies-card-container .testemonies-card h3 {
   font-size: 1.1rem;
+  font-weight: bold;
   line-height: 1.4;
   color: #5900b3;
 }
@@ -335,130 +463,6 @@ p.text-cto {
   border: transparent;
   box-shadow: 0 1px 10px #ccc;
 }
-.services-container {
-  background-color: #e5eaff;
-  padding: 3rem;
-}
-@media (max-width: 720px) {
-  .services-container {
-    padding: 2rem;
-  }
-}
-.services-container .services-list {
-  display: flex;
-  padding: 2rem 0;
-}
-@media (max-width: 720px) {
-  .services-container .services-list {
-    flex-direction: column;
-  }
-}
-.services-container .services-list .main-first-service,
-.services-container .services-list .main-second-service  {
-  width: 30%;
-  height: 415px;
-  margin: 0 1%;
-  position: relative;
-  cursor: pointer;
-  transition: 0.5s;
-}
-.services-container .services-list .main-first-service{
-  background-image: url("../img/service1.jpg");
-}
-.services-container .services-list .main-second-service {  
-  background-image: url("../img/service6.jpg");  
-}
-@media (max-width: 720px) {
-  .services-container .services-list .main-first-service,
-.services-container .services-list .main-second-service {
-    width: 100%;
-    height: 200px;
-    margin: 0;
-    margin-bottom: 2rem;
-  }
-}
-.services-container .services-list .other-services-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 68%;
-}
-@media (max-width: 720px) {
-  .services-container .services-list .other-services-container {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-.services-container .services-list .other-services-container .service-card {
-  width: 46%;
-  height: 200px;
-  position: relative;
-  cursor: pointer;
-  margin-bottom: 15px;
-  margin-right: 15px;
-}
-@media (max-width: 720px) {
-  .services-container .services-list .other-services-container .service-card {
-    width: 100%;
-    height: 200px;
-    margin: 0;
-    margin-bottom: 2rem;
-  }
-}
-.services-container .services-list .other-services-container #service2 {
-  background-image: url("../img/service2.png");
-}
-.services-container .services-list .other-services-container #service3 {
-  background-image: url("../img/service3.webp");
-}
-.services-container .services-list .other-services-container #service4 {
-  background-image: url("../img/service4.jpg");
-}
-.services-container .services-list .other-services-container #service5 {
-  background-image: url("../img/service5.png");
-}
-.services-container .services-list .other-services-container #service7 {
-  background-image: url("../img/service7.png");
-}
-.services-container .services-list .other-services-container #service8 {
-  background-image: url("../img/service8.jpg");
-}
-.services-container .services-list .other-services-container #service9 {
-  background-image: url("../img/service9.jpg");
-}
-.services-container .services-list .other-services-container #service10 {
-  background-image: url("../img/service10.png");
-}
-.services-container .services-list .service-card-cover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding-top: 1rem;
-  background-color: rgba(0, 0, 0, 0.6);
-  border: 3px solid #5900b3;
-  transition: all 0.3s ease-in-out;
-}
-.main-first-service .service-card-cover:hover,
-.main-second-service .service-card-cover:hover,
-.service-card .service-card-cover:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.services-container .services-list .service-card-title {
-  text-align: center;
-  color: #fff;
-  font-size: 2.25rem;
-  line-height: 1.4;
-  font-weight: bold;
-}
-.services-container .services-list .service-card-description {
-  text-align: center;
-  color: #fff;
-  padding: 1rem;
-  font-size: 1rem;
-  line-height: 1.4;
-}
-
 footer {
   background-color: #1d1d1d;
   color: #8b8e94;
