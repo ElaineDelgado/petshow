@@ -5,7 +5,7 @@
 
 </div>
 
-<h1 align="center">Petshow</h1>
+<h1 align="center">Petshow _ Versão com Bootstrap 5</h1>
 <a href="https://petshowshop.netlify.app">Demo do Petshow aqui!!!</a>
 
 <hr> 
@@ -22,6 +22,7 @@
 ## :dart: Sobre ##
 
 Site da Petshow, que é uma loja de artigos para Pets e clínica veterinária.
+Nessa segunda versão foi utilizada a bibilioteca CSS Bootstrap 5 para inlcusão de Slide e cards no projeto.
 
 
 ## :white_check_mark: Requerimentos ##

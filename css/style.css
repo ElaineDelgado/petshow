@@ -156,11 +156,9 @@ main {
 }
 .carousel-item.carousel-item-01  {
   background-image: url("../img/bg-01.jpg");
- /* <img src="img/bg-02.jpg" class="d-block w-100" alt="..."> */
 }
 .carousel-item.carousel-item-02  {
   background-image: url("../img/bg-02.jpg");
- /* <img src="img/bg-02.jpg" class="d-block w-100" alt="..."> */
 }
 .carousel-item.carousel-item-03  {
   background-image: url("../img/bg-03.jpg");
